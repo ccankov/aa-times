@@ -1,0 +1,26 @@
+.sections-nav {
+  border-bottom: 1px solid $light-gray;
+}
+
+.sections-nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.sections-nav li {
+  padding: 10px;
+}
+
+.sections-nav a {
+  font-family: arial;
+}
+
+.sections-nav li:hover a {
+  background-color: $light-gray;
+  text-decoration: none;
+}
+
+.sections-nav li:last-child:hover a {
+  background-color: white;
+  text-decoration: underline;
+}

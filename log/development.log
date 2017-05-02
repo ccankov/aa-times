@@ -69,3 +69,33 @@ Completed 200 OK in 52ms (Views: 48.5ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/application.self-2a380dfea48a9d4ed7099ee6124b47b1dc69cb09e65aed0de4959e7eab403402.css?body=1" for ::1 at 2017-05-02 12:11:58 -0700
+Started GET "/" for ::1 at 2017-05-02 12:14:37 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (2.0ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 66ms (Views: 65.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-bdb81edcfde705613a26a170a8184c268e1729fec8625cc40569e8119a94c394.css?body=1" for ::1 at 2017-05-02 12:14:37 -0700
+Started GET "/assets/application.self-bdb81edcfde705613a26a170a8184c268e1729fec8625cc40569e8119a94c394.css?body=1&livereload=1493752485200" for ::1 at 2017-05-02 12:14:45 -0700
+Started GET "/assets/application.self-bdb81edcfde705613a26a170a8184c268e1729fec8625cc40569e8119a94c394.css?body=1&livereload=1493752485209" for ::1 at 2017-05-02 12:14:45 -0700
+Started GET "/assets/application.self-bdb81edcfde705613a26a170a8184c268e1729fec8625cc40569e8119a94c394.css?body=1&livereload=1493752505574" for ::1 at 2017-05-02 12:15:05 -0700
+Started GET "/assets/application.self-bdb81edcfde705613a26a170a8184c268e1729fec8625cc40569e8119a94c394.css?body=1&livereload=1493752505576" for ::1 at 2017-05-02 12:15:05 -0700
+Started GET "/" for ::1 at 2017-05-02 12:15:06 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.8ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (0.7ms)
+  Rendered shared/_search_modal.html.erb (0.6ms)
+  Rendered shared/_main_content.html.erb (0.5ms)
+  Rendered static_pages/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 58ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4deb47b874e2875b431f61847e285ec1a6e072ff9daeacb1d539a9b3b4a895ca.css?body=1" for ::1 at 2017-05-02 12:15:07 -0700

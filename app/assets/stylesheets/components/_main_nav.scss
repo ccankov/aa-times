@@ -48,3 +48,17 @@
 #gear-dropdown-btn {
   position: relative;
 }
+
+@media all and (max-width: 600px) {
+  .language-nav {
+    display: none;
+  }
+
+  .right-nav button {
+    display: none;
+  }
+
+  .left-nav {
+    margin-left: 0px;
+  }
+}

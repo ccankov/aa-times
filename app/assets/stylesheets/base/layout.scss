@@ -113,10 +113,14 @@ hr {
 
 .thumbnail {
   height: 100px;
+	overflow: hidden;
 }
 
-.thumbnail div {
+.thumbnail img {
   object-fit: cover;
+	position: relative;
+  left: 50%;
+  transform: translate(-50%,0);
 }
 
 .comment-link {
